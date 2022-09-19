@@ -4,6 +4,7 @@ int main(){
 	int n = 0;
 	int b = 0;
 	int c = 0;
+	
 	scanf("%d", &n);
 	scanf("%d", &b);
 	n--;
