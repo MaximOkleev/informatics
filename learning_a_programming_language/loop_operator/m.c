@@ -2,21 +2,22 @@
 
 int main(){
 	int n = 0;
-	int b = 0;
-	int c = 0;
+	int schit = 0;
+	int count_zero = 0;
 	
 	scanf("%d", &n);
-	scanf("%d", &b);
+	scanf("%d", &schit);
 	n--;
 
 	while(n > 0){
-		scanf("%d", &b);
-		if(b == 0)
+		scanf("%d", &schit);
+		if(schit == 0)
 		{
-		    c++;
+		    count_zero++;
 		}
 		n--;
 	}
-	printf("%d",c);
+	
+	printf("%d",count_zero);
 	return 0;
 }
