@@ -11,7 +11,10 @@ int main(){
 
 	while(n > 0){
 		scanf("%d", &b);
-		if(b == 0) c++;
+		if(b == 0)
+		{
+		    c++;
+		}
 		n--;
 	}
 	printf("%d",c);
