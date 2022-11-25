@@ -2,14 +2,14 @@
 
 int main()
 {
-    int n;
+    int n = 0;
     int cnt = 0;
     
-    while (scanf("%d", &n)){
-        if (n > 0){
+    while (scanf("%d", &n)) {
+        if (n > 0) {
             cnt++;
         }
-        else if(n == 0){
+        else {
             break;
         }
     }
