@@ -9,7 +9,7 @@ int main ()
     int d = 0;
     
     scanf("%d%d%d%d", &a, &b, &c, &d);
-    if (abs(c - a) == 1 || abs(d - b) == 1)
+    if (abs(c - a) <= 1 && abs(d - b) <= 1)
         printf("YES");
     else
         printf("NO");
